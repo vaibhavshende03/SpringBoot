@@ -60,6 +60,19 @@ public class User {
 	public void setCity(String city) {
 		this.city = city;
 	}
+	public User( String name, String email, String password, String gender, String city) {
+		super();
+		
+		this.name = name;
+		this.email = email;
+		this.password = password;
+		this.gender = gender;
+		this.city = city;
+	}
+	public User() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 
 	
 	
