@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<h2>Conditional (if)</h2>
+<!-- 
+<p th:if="${num1>num2}">
+<span th:text="${num1}+' is greater than '+${num2}"></span>
+</p>
+
+<p th:if="${num2>num1}">
+<span th:text="${num2}+' is greater than '+${num1}"></span>
+</p>
+
+-->
+
+
+
+
+<p th:if="${num1>num2}" th:text="${num1}+' is greater than '+${num2}">
+</p>
+
+<p th:if="${num2>num1}" th:text="${num2}+' is greater than '+${num1}">
+ 
+</p>
+
+</body>
+</html>
